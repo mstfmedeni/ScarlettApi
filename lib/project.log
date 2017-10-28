@@ -39,3 +39,7 @@ GET /users/gel 200 5 - 2.648 ms
 [0mGET /users [33m400 [0m7.363 ms - 102[0m
 [0mGET /users [33m400 [0m7.550 ms - 102[0m
 [0mGET /users/gel [33m400 [0m2.517 ms - 102[0m
+[0mGET /users [33m400 [0m7.549 ms - 102[0m
+[0mGET /users [33m400 [0m7.678 ms - 102[0m
+[0mGET /users [33m400 [0m7.587 ms - 102[0m
+[0mGET /users [33m400 [0m8.400 ms - 102[0m
