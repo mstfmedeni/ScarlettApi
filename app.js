@@ -9,5 +9,5 @@ server.set('port', PORT);
 let app = http.createServer(server);
 
 app.listen(PORT, () => {
-  console.log('Aplikasi udah jalan.....');
+  console.log('SCARLETT rest Api . . .');
 });
