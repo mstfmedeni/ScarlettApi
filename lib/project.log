@@ -412,3 +412,38 @@ GET /users/gel 200 5 - 2.648 ms
 [0mPOST /login [32m200 [0m101.904 ms - 505[0m
 [0mPOST /login [32m200 [0m107.599 ms - 509[0m
 [0mDELETE /users/688 [32m200 [0m19.248 ms - 194[0m
+[0mDELETE /users/688 [0m- [0m- ms - -[0m
+[0mDELETE /users/688 [32m200 [0m25.527 ms - 194[0m
+[0mDELETE /users/688 [32m200 [0m40.988 ms - 194[0m
+[0mDELETE /users [33m404 [0m19.155 ms - 147[0m
+[0mDELETE /users/123123 [32m200 [0m16.716 ms - 194[0m
+[0mDELETE /users/688 [32m200 [0m7.603 ms - 194[0m
+[0mGET /users [31m500 [0m1025.584 ms - 233[0m
+[0mGET /users [31m500 [0m1200.271 ms - 233[0m
+[0mGET /users [31m500 [0m1110.950 ms - 233[0m
+[0mGET /users [31m500 [0m1042.243 ms - 233[0m
+[0mGET /users [31m500 [0m1039.265 ms - 233[0m
+[0mGET /users [31m500 [0m1037.001 ms - 233[0m
+[0mGET /users [31m500 [0m1046.272 ms - 233[0m
+[0mGET /users [31m500 [0m1040.697 ms - 233[0m
+::1 - - [03/Nov/2017:11:51:06 +0000] "GET /users HTTP/1.1" 401 105
+::1 - - [03/Nov/2017:11:51:16 +0000] "GET /users HTTP/1.1" 401 105
+::1 - - [03/Nov/2017:11:52:10 +0000] "GET /users HTTP/1.1" 401 107
+::1 - - [03/Nov/2017:11:52:48 +0000] "POST /login HTTP/1.1" 404 106
+::1 - - [03/Nov/2017:11:53:54 +0000] "POST /login HTTP/1.1" 404 106
+::1 - - [03/Nov/2017:11:54:06 +0000] "POST /login HTTP/1.1" 200 505
+::1 - - [03/Nov/2017:12:09:03 +0000] "POST /login HTTP/1.1" 200 505 "-" "PostmanRuntime/6.4.1"
+::1 - - [03/Nov/2017:12:11:24 +0000] "POST /login HTTP/1.1" 200 505 "-" "PostmanRuntime/6.4.1"
+::1 - - [03/Nov/2017:12:13:41 +0000] "POST /login HTTP/1.1" 200 505 "-" "PostmanRuntime/6.4.1"
+::1 - - [03/Nov/2017:12:14:04 +0000] "GET /users HTTP/1.1" 501 114230 "-" "PostmanRuntime/6.4.1"
+::1 - - [03/Nov/2017:12:16:02 +0000] "GET /users HTTP/1.1" 200 114230 "-" "PostmanRuntime/6.4.1"
+{"remote_addr": "::1", "remote_user": "-", "date": "03/Nov/2017:12:27:13 +0000", "method": "GET", "url": "/users", "http_version": "1.1", "status": "200", "result_length": "114230", "referrer": "-", "user_agent": "PostmanRuntime/6.4.1", "response_time": "68.087"}
+{"remote_addr": "::1","header":"-", "remote_user": "-", "date": "03/Nov/2017:12:31:10 +0000", "method": "GET", "url": "/users", "http_version": "1.1", "status": "200", "result_length": "114230", "referrer": "-", "user_agent": "PostmanRuntime/6.4.1", "response_time": "74.186"}
+{"remote_addr": "::1","header":"PostmanRuntime/6.4.1", "remote_user": "-", "date": "03/Nov/2017:12:32:17 +0000", "method": "GET", "url": "/users", "http_version": "1.1", "status": "200", "result_length": "114230", "referrer": "-", "user_agent": "PostmanRuntime/6.4.1", "response_time": "67.441"}
+{"remote_addr": "::1","header":"res[header]", "remote_user": "-", "date": "03/Nov/2017:12:32:51 +0000", "method": "GET", "url": "/users", "http_version": "1.1", "status": "200", "result_length": "114230", "referrer": "-", "user_agent": "PostmanRuntime/6.4.1", "response_time": "66.701"}
+{"remote_addr": "::1","header":"-", "remote_user": "-", "date": "03/Nov/2017:12:33:03 +0000", "method": "GET", "url": "/users", "http_version": "1.1", "status": "200", "result_length": "114230", "referrer": "-", "user_agent": "PostmanRuntime/6.4.1", "response_time": "75.707"}
+::1 - - [03/Nov/2017:12:33:52 +0000] "GET /users HTTP/1.1" 200 114230 "-" "PostmanRuntime/6.4.1"
+::1 - - [03/Nov/2017:12:37:42 +0000] "GET /users HTTP/1.1" 401 105 "-" "HTTPie/0.9.9"
+::1 - - [03/Nov/2017:12:37:59 +0000] "GET / HTTP/1.1" 401 105 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5"
+::1 - - [03/Nov/2017:12:38:00 +0000] "GET /favicon.ico HTTP/1.1" 401 105 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5"
+::1 - - [03/Nov/2017:12:38:02 +0000] "GET /users HTTP/1.1" 401 105 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5"
